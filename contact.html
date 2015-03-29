@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="contact.css"/>
+		<title>Contact Me</title>
+	</head>
+	<body>
+		<div id="navbar">
+			<li class="home ta"><a href="index.html">Nicole Kucik</a></li>
+			<li><a href="classes.html">Classes</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li class="contact"><a href="contact.html">Contact</a></li>
+		</div>
+		<div class="left"></div>
+		<div class="right">
+			<div class="thumbs">
+				<h4>Picture My Life</h4>
+				<a class="socialIcons" href="http://instagram.com/nicolekucik" title="Follow my Insta" alt="instagram"><img src="instagram.png" style="width:128px;height:128px"/></a>
+				<br>
+				<br>
+				<h4>Write on My Wall</h4>
+				<a class="socialIcons" href="http://facebook.com/nicolekucik" title="Poke me on Facebook" alt="facebook"><img src="facebook.png" style="width:128px;height:128px"/></a>
+				<br>
+				<br>
+				<h4>Listen to my World</h4>
+				<a class="socialIcons" href="https://www.youtube.com/channel/UCeCZ_Ixavdl1O5KQYZt15EQ" title="La la la" alt="youtube"><img src="youtube.png" style="width:128px;height:128px"/></a>
+				<span class="stretch"></span>
+			<br>
+			<br>
+			</div>
+				<p id="email"></p>
+			
+			<script>
+
+			    var email = '<a href="mailto:nkucik';
+			    email += '@';
+			    email += 'fordham.edu">My e-mail</a>';
+			
+			    var emailElem = document.querySelector('#email');
+			
+			    emailElem.innerHTML = email;
+			</script>
+		</div>
+		<div id="footer">
+			<p>Thanks for visiting!</p>
+		</div>
+	</body>
+</html>

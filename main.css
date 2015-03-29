@@ -1,0 +1,159 @@
+/* Nicole Kucik's style sheet */
+body{
+    background:#FFA3C2;
+    margin:0;
+}
+
+a{
+    color:#FFFFFF;
+}
+
+li{
+    line-height:20px;
+}
+
+#navbar{
+    background-color:#FAE6F0;
+    display:block;
+    height:44px;
+    margin:0;
+    width:auto;
+}
+
+#navbar li,#navbar li a{
+    color:#8F0047;
+    float:left;
+    font-size:20px;
+    height:44px;
+    line-height:44px;
+    font-family: Verdana, sans-serif;
+    list-style:none;
+    margin:0;
+    text-align:center;
+    text-decoration:none;
+    width:180px;
+}
+
+#profile{
+    -moz-border-radius:15px;
+    -o-border-radius:15px;
+    -webkit-border-radius:15px;
+    background-image:url(profile.png);
+    border-radius:15px;
+}
+
+#navbar .ta{
+    font-family: Verdana, sans-serif;
+    color:#FFFFFF;
+    font-weight:700;
+}
+
+#navbar .contact{
+    float:right;
+}
+
+#navbar .home{
+    background-color:#FF6699;
+    color:#FFF;
+}
+#navbar li a:hover{
+    background-color:#FF85AD;
+    color:#FFF;
+    text-decoration:underline;
+}
+
+table{
+    border-color:#AAA;
+    border-style:inset;
+    border-width:thin;
+    width:100%;
+}
+
+td{
+    border-color:#AAA;
+    border-style:inset;
+    border-width:thin;
+}
+
+#box{
+    border-radius:15px;
+    border-radius:15px;
+    border-radius:15px;
+    background-color:#FF6699;
+    font-family: Verdana, sans-serif;
+    border:3px solid #FFF;
+    border-radius:15px;
+    color:#FFF;
+    margin:.5in auto;
+    padding:20px;
+    text-align:left;
+    width:70%;
+}
+h2{
+    text-align: center;
+}
+
+img{
+    max-width:100%;
+}
+
+#schedule{
+    text-align:center;
+}
+
+#lastUpdate{
+    color:#CCC;
+    text-align:center;
+}
+
+#error{
+    color:#EEEEE0;
+    text-align:center;
+}
+
+#copyright{
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:#8F0047;
+    font-family: Verdana, sans-serif;
+    margin:24px;
+}
+
+#copyright a{
+    color:#8F0047;
+}
+
+#copyright li{display:block;
+    float:right;
+    list-style:none;
+    text-align:right;
+    width:100px;
+}
+
+#oculus-me{
+    border:3px solid #FFF;
+    border-radius:7px;
+    color:#FFF;
+    margin:.5in auto;
+    padding:20px;
+    width:25%;
+}
+
+#dr-me{
+    border:3px solid #FFF;
+    border-radius:7px;
+    color:#FFF;
+    margin:.5in auto;
+    padding:20px;
+    width:50%;
+}
+
+#date{
+    text-align:right;
+    font-size:10px;
+}
+
+
