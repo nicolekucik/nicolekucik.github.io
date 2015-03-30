@@ -1,4 +1,17 @@
 /* For CONTACT.HTML */
+body{
+    background:#C2C2D6;
+    margin:0;
+}
+
+a{
+    color:#006081;
+}
+
+li{
+    line-height:20px;
+}
+
 
 div {
 	border-radius: 5px;
@@ -15,7 +28,7 @@ div {
 }
 
 
-/* Start of dropdown bar */
+/* Start of stuff */
 #sddm{
     margin: 0;
     padding: 0;
@@ -36,14 +49,14 @@ div {
     margin: 0 1px 0 0;
     padding: 4px 10px;
     width: 85px;
-    background: #FF80B2;
-    color: #FFF;
+    background: #FFFFDA;
+    color: #006081;
     text-align: center;
     text-decoration: none;
 }
 
 #sddm li a:hover{
-   background: #FAE6F0;
+   background: #FFFFE9;
 }
 
 #sddm div{
@@ -51,7 +64,7 @@ div {
     visibility: hidden;
     margin: 0;
     padding: 0;
-    background: #FFCCE0;
+    background: #FFFFDA;
     border: 1px solid #FF80B2;
 }
 
@@ -64,22 +77,23 @@ div {
     white-space: nowrap;
     text-align: center;
     text-decoration: none;
-    background: #FFCCE0;
-    color: #2875DE;
+    background: #FFFFDA;
+    color: #006081;
     font: 11px arial;
 }
 
 #sddm div a:hover{
-    background: #FAE6F0;
-    color: #FFF;
+    background: #FFFFE9;
+    color: #66A0B3;
 }
 
 #box{
     border-radius:15px;
-    background-color:#FF6699;
+     background-color:#C2D1FF;
     font-family: Verdana, sans-serif;
-    border:3px solid #FFF;
-    color:#FFF;
+    border:3px solid #006081;
+    border-radius:15px;
+    color:#006081;
     margin:.5in auto;
     padding:20px;
     text-align:center;
@@ -132,7 +146,7 @@ a:hover {
 	margin-top: -35px;
 	width: 10%;
 	height: 650px;
-	background-color: #FF4D94;
+	background-color: #FFFFDA;
 	margin-bottom: 10px;
 }
 
@@ -142,7 +156,7 @@ a:hover {
 	margin-top: -35px;
 	width: 88%;
 	height: 650px;
-	background-color: #FFBAD6;
+	background-color: #BFA1BF;
 	margin-bottom: 10px;
 }
 

@@ -1,11 +1,11 @@
 /* Nicole Kucik's style sheet */
 body{
-    background:#FFA3C2;
+    background:#C2C2D6;
     margin:0;
 }
 
 a{
-    color:#FFFFFF;
+    color:#006081;
 }
 
 li{
@@ -29,11 +29,11 @@ td{
     border-radius:15px;
     border-radius:15px;
     border-radius:15px;
-    background-color:#FF6699;
+    background-color:#FFFFDA;
     font-family: Verdana, sans-serif;
-    border:3px solid #FFF;
+    border:3px solid #006081;
     border-radius:15px;
-    color:#FFF;
+    color:#006081;
     margin:.5in auto;
     padding:20px;
     text-align:left;
@@ -67,13 +67,13 @@ img{
     left: 0;
     bottom: 0;
     width: 100%;
-    color:#8F0047;
+    color:#5E145E;
     font-family: Verdana, sans-serif;
     margin:24px;
 }
 
 #copyright a{
-    color:#8F0047;
+    color:#5E145E;
 }
 
 #copyright li{display:block;
@@ -127,14 +127,14 @@ img{
     margin: 0 1px 0 0;
     padding: 4px 10px;
     width: 85px;
-    background: #FF80B2;
-    color: #FFF;
+    background: #FFFFDA;
+    color: #006081;
     text-align: center;
     text-decoration: none;
 }
 
 #sddm li a:hover{
-   background: #FAE6F0;
+   background: #FFFFE9;
 }
 
 #sddm div{
@@ -142,7 +142,7 @@ img{
     visibility: hidden;
     margin: 0;
     padding: 0;
-    background: #FFCCE0;
+    background: #FFFFDA;
     border: 1px solid #FF80B2;
 }
 
@@ -155,14 +155,14 @@ img{
     white-space: nowrap;
     text-align: center;
     text-decoration: none;
-    background: #FFCCE0;
-    color: #2875DE;
+    background: #FFFFDA;
+    color: #006081;
     font: 11px arial;
 }
 
 #sddm div a:hover{
-    background: #FAE6F0;
-    color: #FFF;
+    background: #FFFFE9;
+    color: #66A0B3;
 }
 /* Start of photo gallery */
 div.img {
@@ -178,7 +178,7 @@ div.img img {
     display: inline;
     margin: 5px;
     padding: 4px;
-    border: 1px solid #ffffff;
+    border: 1px solid #b4acb4;
     border-radius:2px;
     color:#FFF;
     margin:.5in auto;
