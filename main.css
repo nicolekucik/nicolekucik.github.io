@@ -164,4 +164,28 @@ img{
     background: #FAE6F0;
     color: #FFF;
 }
+/* Start of photo gallery */
+div.img {
+    margin: 5px;
+
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    padding: 4px;
+    border: 1px solid #ffffff;
+    border-radius:2px;
+    color:#FFF;
+    margin:.5in auto;
+    padding:20px;
+}
+
+div.img a:hover img {
+    border:1px solid #FFCCE0;
+}
 
