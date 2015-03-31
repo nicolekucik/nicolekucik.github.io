@@ -89,7 +89,7 @@ div {
 
 #box{
     border-radius:15px;
-     background-color:#C2D1FF;
+     background-color:#CEDAFF;
     font-family: Verdana, sans-serif;
     border:3px solid #006081;
     border-radius:15px;
@@ -163,12 +163,12 @@ a:hover {
 #footer {
 	position: relative;
 	height: 50px;
-	background-color: #FF8CBA;
+	background-color: #CEDAFF;
 	clear: both;
 	font-family: Verdana, sans-serif;
 	font-size: 14px;
 	text-align: center;
-	color: #ffffff;
+	color: #006081;
 }
 .socialIcons{
 	width: 940px;
