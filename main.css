@@ -190,9 +190,10 @@ div.img a:hover img {
 }
 
 #countdown p {
-text-align: center;
-display: inline-block;
-padding: 5px;
-background: #9b59b6;
-margin: 0 0 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    background: #9b59b6;
+    margin: 0 0 20px;
+    text-align: center;
 }
