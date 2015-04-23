@@ -188,9 +188,11 @@ div.img img {
 div.img a:hover img {
     border:1px solid #FFCCE0;
 }
+
 #countdown p {
+text-align: center;
 display: inline-block;
 padding: 5px;
-background: #FFA500;
+background: ##9b59b6;
 margin: 0 0 20px;
 }
