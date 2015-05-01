@@ -4,25 +4,27 @@
 	<title>Happy (almost) Birthday!</title>
 	<link rel="stylesheet" href="main.css">
 	<script>
-var now = new Date();
-alert( now.getHours() );
-
-var msg = "";
-
-if (hrs >  0) msg = "Mornin' Sunshine!"; // REALLY early
-if (hrs >  6) msg = "Good morning";      // After 6am
-if (hrs > 12) msg = "Good afternoon";    // After 12pm
-if (hrs > 17) msg = "Good evening";      // After 5pm
-if (hrs > 22) msg = "Go to bed!";        // After 10pm
-
-alert(msg);
-
 </script>
 </head>
 <body>
 	<div align="center">
 		<h3>Hello Ali!</h3>
 		<h2></h2>
+		<?php
+// I'm India so my timezone is Asia/Calcutta
+date_default_timezone_set('Asia/Calcutta');
+
+// 24-hour format of an hour without leading zeros
+$Hour = date('G');
+
+if ( $Hour >= 5 && $Hour <= 11 ) {
+    echo "Good Morning";
+} else if ( $Hour >= 12 && $Hour <= 18 ) {
+    echo "Good Afternoon";
+} else if ( $Hour >= 19 || $Hours <= 4 ) {
+    echo "Good Evening";
+}
+?>
 	</div>
 	<p>Open this page in <span id="logout-timer"></span></p>
 </body>
