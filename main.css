@@ -10,10 +10,6 @@ body {
 	padding-top: 50px;
 }
 
-h1, h2 {
-	text-align: center;
-}
-
 .navbar {
 	padding-top: 10px;
 	background-color: white;
@@ -39,8 +35,6 @@ h1, h2 {
 	height: 675px;
   	background-repeat: no-repeat;
 	background-size: cover;
-    background-position-y: 60%;
-    background-position-x: 50%; 
 }
 
 .jumbotron .container {
